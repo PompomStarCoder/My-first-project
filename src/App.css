@@ -1,0 +1,41 @@
+.App {
+  max-width: 600px;
+  margin: 70px auto;
+  text-align: left;
+  
+}
+
+.input-container {
+  margin-bottom: 50px;
+}
+
+input [type='text'] {
+  text-align: center;
+  width: 100%;
+  padding: 100px;
+  margin-right: 10px;
+}
+
+button {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #ff9933;
+  color: rgb(0, 8, 8);
+  border-color: #ff9933;
+  cursor: pointer;
+  align-self: center;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  margin-bottom: 10px;
+}
+
+.task-list .completed {
+  text-decoration: line-through;
+  color: rgb(215, 13, 30);
+}
